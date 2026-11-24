@@ -7,6 +7,6 @@ authors:
     given-names: Chenlu
   - family-names: Matsushita
     given-names: Bunkei
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-11-24
 abstract: "Satellite-to-satellite SPM matchups, independent field-validation observations, model predictions and sensor-specific model checkpoints for Japanese lakes."

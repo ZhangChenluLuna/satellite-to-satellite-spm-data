@@ -16,8 +16,6 @@ Authors: Chenlu Zhang and Bunkei Matsushita, University of Tsukuba.
 | `metadata` | Sample counts, source citations and source-file checksums |
 | `scripts` | Independent validation-metric and file-integrity checks |
 
-No manuscript, cover letter, original satellite imagery, duplicate Excel workbooks, figures, SHAP/Monte Carlo experiments or later label-correction trials are included.
-
 ## Sample counts
 
 | Sensor | Retained Dataset II | Training | Validation | Held-out test | Dataset III total | Field SPM >=1 |
