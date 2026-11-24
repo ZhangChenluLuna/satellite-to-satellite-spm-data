@@ -4,7 +4,7 @@ data/dataset_i/field_olci_matchups.csv.gz,2,Counrty,not applicable,Country field
 data/dataset_i/field_olci_matchups.csv.gz,3,datasource,not applicable,"In-situ data source: CNL, GLORIA, PL or TGL."
 data/dataset_i/field_olci_matchups.csv.gz,4,lat,degrees,Latitude recorded for the named sampling or pixel location.
 data/dataset_i/field_olci_matchups.csv.gz,5,lon,degrees,Longitude recorded for the named sampling or pixel location.
-data/dataset_i/field_olci_matchups.csv.gz,6,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
+data/dataset_i/field_olci_matchups.csv.gz,6,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived SPM targets in Dataset II and independent-test records.
 data/dataset_i/field_olci_matchups.csv.gz,7,sensing_time_utc,source date/time,Sensing-time field recorded in UTC in the source table.
 data/dataset_i/field_olci_matchups.csv.gz,8,id,not applicable,Source matchup identifier.
 data/dataset_i/field_olci_matchups.csv.gz,9,insitu_id,not applicable,Source in-situ record identifier.
@@ -47,7 +47,7 @@ data/dataset_ii/S2_training_matchups.csv.gz,1,source_row_0based,row index,Zero-b
 data/dataset_ii/S2_training_matchups.csv.gz,2,split,not applicable,"Fixed train, val or test membership."
 data/dataset_ii/S2_training_matchups.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
 data/dataset_ii/S2_training_matchups.csv.gz,4,date_day,date,Observation date as recorded in the source table.
-data/dataset_ii/S2_training_matchups.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
+data/dataset_ii/S2_training_matchups.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived SPM targets in Dataset II and independent-test records.
 data/dataset_ii/S2_training_matchups.csv.gz,6,cv_median,dimensionless,Median coefficient of variation used in homogeneity screening.
 data/dataset_ii/S2_training_matchups.csv.gz,7,POC/SPM,mass ratio,Particulate organic carbon to suspended particulate matter ratio.
 data/dataset_ii/S2_training_matchups.csv.gz,8,Mai_class,class code,Mai water-class code retained from the source table.
@@ -61,18 +61,18 @@ data/dataset_ii/S2_training_matchups.csv.gz,15,S2_Rrs_740nm_B6,sr^-1,Remote-sens
 data/dataset_ii/S2_training_matchups.csv.gz,16,S2_Rrs_783nm_B7,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
 data/dataset_ii/S2_training_matchups.csv.gz,17,S2_Rrs_842nm_B8,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
 data/dataset_ii/S2_training_matchups.csv.gz,18,S2_Rrs_865nm_B8A,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
-data/heldout/S2_predictions.csv.gz,1,sensor,not applicable,Satellite sensor identifier.
-data/heldout/S2_predictions.csv.gz,2,src_row,row index,Zero-based row index in the original sensor-specific matchup table.
-data/heldout/S2_predictions.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
-data/heldout/S2_predictions.csv.gz,4,date_day,date,Observation date as recorded in the source table.
-data/heldout/S2_predictions.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
-data/heldout/S2_predictions.csv.gz,6,plot_label_spm,g m^-3,Stored OLCI-derived reference SPM used in the held-out plot.
-data/heldout/S2_predictions.csv.gz,7,plot_pred_spm,g m^-3,Stored model-predicted SPM used in the held-out plot.
+data/independent_test/S2_predictions.csv.gz,1,sensor,not applicable,Satellite sensor identifier.
+data/independent_test/S2_predictions.csv.gz,2,src_row,row index,Zero-based row index in the original sensor-specific matchup table.
+data/independent_test/S2_predictions.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
+data/independent_test/S2_predictions.csv.gz,4,date_day,date,Observation date as recorded in the source table.
+data/independent_test/S2_predictions.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived SPM targets in Dataset II and independent-test records.
+data/independent_test/S2_predictions.csv.gz,6,plot_label_spm,g m^-3,Stored OLCI-derived reference SPM used in the independent-test plot.
+data/independent_test/S2_predictions.csv.gz,7,plot_pred_spm,g m^-3,Stored model-predicted SPM used in the independent-test plot.
 data/dataset_ii/L7_training_matchups.csv.gz,1,source_row_0based,row index,Zero-based original data-row index; corresponding Excel row is index plus 2.
 data/dataset_ii/L7_training_matchups.csv.gz,2,split,not applicable,"Fixed train, val or test membership."
 data/dataset_ii/L7_training_matchups.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
 data/dataset_ii/L7_training_matchups.csv.gz,4,date_day,date,Observation date as recorded in the source table.
-data/dataset_ii/L7_training_matchups.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
+data/dataset_ii/L7_training_matchups.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived SPM targets in Dataset II and independent-test records.
 data/dataset_ii/L7_training_matchups.csv.gz,6,cv_median,dimensionless,Median coefficient of variation used in homogeneity screening.
 data/dataset_ii/L7_training_matchups.csv.gz,7,OWT_S3_label,class label,Optical water type assigned using Sentinel-3 reflectance.
 data/dataset_ii/L7_training_matchups.csv.gz,8,L7_Rrs_485nm_SR_B1,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
@@ -81,18 +81,18 @@ data/dataset_ii/L7_training_matchups.csv.gz,10,L7_Rrs_660nm_SR_B3,sr^-1,Remote-s
 data/dataset_ii/L7_training_matchups.csv.gz,11,L7_Rrs_835nm_SR_B4,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
 data/dataset_ii/L7_training_matchups.csv.gz,12,lon,degrees,Longitude recorded for the named sampling or pixel location.
 data/dataset_ii/L7_training_matchups.csv.gz,13,lat,degrees,Latitude recorded for the named sampling or pixel location.
-data/heldout/L7_predictions.csv.gz,1,sensor,not applicable,Satellite sensor identifier.
-data/heldout/L7_predictions.csv.gz,2,src_row,row index,Zero-based row index in the original sensor-specific matchup table.
-data/heldout/L7_predictions.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
-data/heldout/L7_predictions.csv.gz,4,date_day,date,Observation date as recorded in the source table.
-data/heldout/L7_predictions.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
-data/heldout/L7_predictions.csv.gz,6,plot_label_spm,g m^-3,Stored OLCI-derived reference SPM used in the held-out plot.
-data/heldout/L7_predictions.csv.gz,7,plot_pred_spm,g m^-3,Stored model-predicted SPM used in the held-out plot.
+data/independent_test/L7_predictions.csv.gz,1,sensor,not applicable,Satellite sensor identifier.
+data/independent_test/L7_predictions.csv.gz,2,src_row,row index,Zero-based row index in the original sensor-specific matchup table.
+data/independent_test/L7_predictions.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
+data/independent_test/L7_predictions.csv.gz,4,date_day,date,Observation date as recorded in the source table.
+data/independent_test/L7_predictions.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived SPM targets in Dataset II and independent-test records.
+data/independent_test/L7_predictions.csv.gz,6,plot_label_spm,g m^-3,Stored OLCI-derived reference SPM used in the independent-test plot.
+data/independent_test/L7_predictions.csv.gz,7,plot_pred_spm,g m^-3,Stored model-predicted SPM used in the independent-test plot.
 data/dataset_ii/L8_training_matchups.csv.gz,1,source_row_0based,row index,Zero-based original data-row index; corresponding Excel row is index plus 2.
 data/dataset_ii/L8_training_matchups.csv.gz,2,split,not applicable,"Fixed train, val or test membership."
 data/dataset_ii/L8_training_matchups.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
 data/dataset_ii/L8_training_matchups.csv.gz,4,date_day,date,Observation date as recorded in the source table.
-data/dataset_ii/L8_training_matchups.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
+data/dataset_ii/L8_training_matchups.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived SPM targets in Dataset II and independent-test records.
 data/dataset_ii/L8_training_matchups.csv.gz,6,cv_median,dimensionless,Median coefficient of variation used in homogeneity screening.
 data/dataset_ii/L8_training_matchups.csv.gz,7,OWT_S3_label,class label,Optical water type assigned using Sentinel-3 reflectance.
 data/dataset_ii/L8_training_matchups.csv.gz,8,L8_Rrs_443nm_SR_B1,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
@@ -100,18 +100,18 @@ data/dataset_ii/L8_training_matchups.csv.gz,9,L8_Rrs_482nm_SR_B2,sr^-1,Remote-se
 data/dataset_ii/L8_training_matchups.csv.gz,10,L8_Rrs_562nm_SR_B3,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
 data/dataset_ii/L8_training_matchups.csv.gz,11,L8_Rrs_655nm_SR_B4,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
 data/dataset_ii/L8_training_matchups.csv.gz,12,L8_Rrs_865nm_SR_B5,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
-data/heldout/L8_predictions.csv.gz,1,sensor,not applicable,Satellite sensor identifier.
-data/heldout/L8_predictions.csv.gz,2,src_row,row index,Zero-based row index in the original sensor-specific matchup table.
-data/heldout/L8_predictions.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
-data/heldout/L8_predictions.csv.gz,4,date_day,date,Observation date as recorded in the source table.
-data/heldout/L8_predictions.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
-data/heldout/L8_predictions.csv.gz,6,plot_label_spm,g m^-3,Stored OLCI-derived reference SPM used in the held-out plot.
-data/heldout/L8_predictions.csv.gz,7,plot_pred_spm,g m^-3,Stored model-predicted SPM used in the held-out plot.
+data/independent_test/L8_predictions.csv.gz,1,sensor,not applicable,Satellite sensor identifier.
+data/independent_test/L8_predictions.csv.gz,2,src_row,row index,Zero-based row index in the original sensor-specific matchup table.
+data/independent_test/L8_predictions.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
+data/independent_test/L8_predictions.csv.gz,4,date_day,date,Observation date as recorded in the source table.
+data/independent_test/L8_predictions.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived SPM targets in Dataset II and independent-test records.
+data/independent_test/L8_predictions.csv.gz,6,plot_label_spm,g m^-3,Stored OLCI-derived reference SPM used in the independent-test plot.
+data/independent_test/L8_predictions.csv.gz,7,plot_pred_spm,g m^-3,Stored model-predicted SPM used in the independent-test plot.
 data/dataset_ii/L9_training_matchups.csv.gz,1,source_row_0based,row index,Zero-based original data-row index; corresponding Excel row is index plus 2.
 data/dataset_ii/L9_training_matchups.csv.gz,2,split,not applicable,"Fixed train, val or test membership."
 data/dataset_ii/L9_training_matchups.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
 data/dataset_ii/L9_training_matchups.csv.gz,4,date_day,date,Observation date as recorded in the source table.
-data/dataset_ii/L9_training_matchups.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
+data/dataset_ii/L9_training_matchups.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived SPM targets in Dataset II and independent-test records.
 data/dataset_ii/L9_training_matchups.csv.gz,6,cv_median,dimensionless,Median coefficient of variation used in homogeneity screening.
 data/dataset_ii/L9_training_matchups.csv.gz,7,OWT_S3_label,class label,Optical water type assigned using Sentinel-3 reflectance.
 data/dataset_ii/L9_training_matchups.csv.gz,8,L9_Rrs_443nm_SR_B1,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
@@ -121,13 +121,13 @@ data/dataset_ii/L9_training_matchups.csv.gz,11,L9_Rrs_655nm_SR_B4,sr^-1,Remote-s
 data/dataset_ii/L9_training_matchups.csv.gz,12,L9_Rrs_865nm_SR_B5,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
 data/dataset_ii/L9_training_matchups.csv.gz,13,lon,degrees,Longitude recorded for the named sampling or pixel location.
 data/dataset_ii/L9_training_matchups.csv.gz,14,lat,degrees,Latitude recorded for the named sampling or pixel location.
-data/heldout/L9_predictions.csv.gz,1,sensor,not applicable,Satellite sensor identifier.
-data/heldout/L9_predictions.csv.gz,2,src_row,row index,Zero-based row index in the original sensor-specific matchup table.
-data/heldout/L9_predictions.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
-data/heldout/L9_predictions.csv.gz,4,date_day,date,Observation date as recorded in the source table.
-data/heldout/L9_predictions.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
-data/heldout/L9_predictions.csv.gz,6,plot_label_spm,g m^-3,Stored OLCI-derived reference SPM used in the held-out plot.
-data/heldout/L9_predictions.csv.gz,7,plot_pred_spm,g m^-3,Stored model-predicted SPM used in the held-out plot.
+data/independent_test/L9_predictions.csv.gz,1,sensor,not applicable,Satellite sensor identifier.
+data/independent_test/L9_predictions.csv.gz,2,src_row,row index,Zero-based row index in the original sensor-specific matchup table.
+data/independent_test/L9_predictions.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
+data/independent_test/L9_predictions.csv.gz,4,date_day,date,Observation date as recorded in the source table.
+data/independent_test/L9_predictions.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived SPM targets in Dataset II and independent-test records.
+data/independent_test/L9_predictions.csv.gz,6,plot_label_spm,g m^-3,Stored OLCI-derived reference SPM used in the independent-test plot.
+data/independent_test/L9_predictions.csv.gz,7,plot_pred_spm,g m^-3,Stored model-predicted SPM used in the independent-test plot.
 data/dataset_iii/S2_field_validation.csv.gz,1,RECORDID,not applicable,Record identifier in the Japanese environmental monitoring data.
 data/dataset_iii/S2_field_validation.csv.gz,2,time,source time,Sampling time recorded in the environmental monitoring data.
 data/dataset_iii/S2_field_validation.csv.gz,3,SS,source text,"Original suspended-solids field, including censoring notation."

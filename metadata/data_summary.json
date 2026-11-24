@@ -18,7 +18,7 @@
     "distinct_lake_ids": 85
   },
   {
-    "file": "data/heldout/S2_predictions.csv.gz",
+    "file": "data/independent_test/S2_predictions.csv.gz",
     "rows": 38427,
     "columns": 7,
     "split_counts": {},
@@ -36,7 +36,7 @@
     "distinct_lake_ids": 74
   },
   {
-    "file": "data/heldout/L7_predictions.csv.gz",
+    "file": "data/independent_test/L7_predictions.csv.gz",
     "rows": 15789,
     "columns": 7,
     "split_counts": {},
@@ -54,7 +54,7 @@
     "distinct_lake_ids": 77
   },
   {
-    "file": "data/heldout/L8_predictions.csv.gz",
+    "file": "data/independent_test/L8_predictions.csv.gz",
     "rows": 13531,
     "columns": 7,
     "split_counts": {},
@@ -72,7 +72,7 @@
     "distinct_lake_ids": 69
   },
   {
-    "file": "data/heldout/L9_predictions.csv.gz",
+    "file": "data/independent_test/L9_predictions.csv.gz",
     "rows": 8020,
     "columns": 7,
     "split_counts": {},

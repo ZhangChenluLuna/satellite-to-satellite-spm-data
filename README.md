@@ -9,16 +9,16 @@ Authors: Chenlu Zhang and Bunkei Matsushita, University of Tsukuba.
 | Directory | Contents |
 | --- | --- |
 | `data/dataset_i` | 348 retained in-situ–OLCI matchups, measured SPM, OLCI spectra and stored Mai25 estimates |
-| `data/dataset_ii` | 692,100 retained satellite-to-satellite training records with frozen train/validation/test membership |
+| `data/dataset_ii` | 692,100 retained satellite-to-satellite records with training, validation and independent-test assignments |
 | `data/dataset_iii` | Independent Japanese lake validation observations, censoring strings, satellite inputs and stored predictions |
-| `data/heldout` | Stored held-out-lake teacher-label predictions |
+| `data/independent_test` | Stored predictions for the independent test lakes in Dataset II |
 | `models` | Four frozen sensor-specific model checkpoints and configuration/feature metadata |
 | `metadata` | Sample counts, source citations and source-file checksums |
-| `scripts` | Independent validation-metric and file-integrity checks |
+| `scripts` | Scripts for calculating validation metrics and verifying file checksums |
 
 ## Sample counts
 
-| Sensor | Retained Dataset II | Training | Validation | Held-out test | Dataset III total | Field SPM >=1 |
+| Sensor | Retained Dataset II | Training | Validation | Independent test | Dataset III total | Field SPM >=1 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | S2 | 371592 | 266532 | 66633 | 38427 | 896 | 721 |
 | L7 | 133771 | 94386 | 23596 | 15789 | 577 | 427 |
@@ -29,19 +29,19 @@ Authors: Chenlu Zhang and Bunkei Matsushita, University of Tsukuba.
 
 All tabular data are UTF-8 CSV compressed with gzip. Standard Python, R, and other analysis tools can read these files directly. For example, `pandas.read_csv("data/dataset_ii/S2_training_matchups.csv.gz")`.
 
-`data_dictionary.csv` documents the retained fields. Original field names and numeric values are preserved. Machine-specific file paths and unrelated water-chemistry/experimental model outputs have been removed from the publication tables.
+`data_dictionary.csv` documents the retained fields. Original field names and numeric values are preserved.
 
-SPM concentrations are in g m^-3, numerically equal to mg L^-1. In Dataset I, `SPM` is the measured concentration and `mai` is the stored OLCI estimate. In Dataset II, `SPM` is the satellite-derived teacher target, not an in-situ measurement. Land-sensor reflectance columns follow the manuscript's Level-2 surface reflectance divided by pi convention. OLCI Rrs comes from C2RCC.
+SPM concentrations are in g m^-3, numerically equal to mg L^-1. In Dataset I, `SPM` is the measured concentration and `mai` is the stored OLCI estimate. In Dataset II, `SPM` is the satellite-derived training target, not an in-situ measurement. Land-sensor reflectance columns follow the manuscript's Level-2 surface reflectance divided by pi convention. OLCI Rrs comes from C2RCC.
 
 Dataset III preserves `SS` (including original censoring text), `SS2` (numeric measurement), and `pred_spm` (the manuscript model prediction). Quantitative evaluation uses SS2 >=1 and finite positive predictions. Records below the reporting threshold retain their original censoring notation. Benchmark predictions are recorded under the source column names.
 
-Dataset II's `source_row_0based` identifies the original data row before cleaning; the corresponding original Excel row is this index plus 2. `split` is the frozen membership and must not be reshuffled when reproducing the stored results. Held-out `src_row` refers to that original source row. The full source workbooks are retained locally rather than duplicated in this repository.
+Dataset II's `source_row_0based` identifies the original data row before cleaning; the corresponding original Excel row is this index plus 2. `split` is the frozen membership and must not be reshuffled when reproducing the stored results. Independent-test `src_row` refers to that original source row.
 
 ## Version and model identity
 
 The data and checkpoints correspond to the original Japanese-lake analysis. The S2 model uses eight spectral bands and six mixture components; its independent field-validation MdAPD is 39.9333%. Checkpoint configuration and input-band order are provided for all four sensors.
 
-Implementation version: the original Mai clear-water absorption calculation used ln in a term requiring log10. The files retain the original analysis values and model outputs. Subsequent base-10 label corrections and retraining results are a separate version and are not included in this dataset.
+Mai25 implementation: the clear-water absorption term was evaluated using ln rather than log10. The deposited estimates and model checkpoints were produced with this implementation.
 
 Model architecture and feature order are recorded in `models/checkpoint_metadata.json`. The `.pt` files contain the original model and scaling state. The scripts reproduce validation statistics from the stored predictions; a training environment is not included.
 
@@ -68,4 +68,4 @@ Use the metadata in `CITATION.cff`. The associated article has not been assigned
 
 ## Contact
 
-Bunkei Matsushita, Faculty of Life and Environmental Sciences, University of Tsukuba: matsushita.bunkei.gn@u.tsukuba.ac.jp.
+Bunkei Matsushita, Institute of Life and Environmental Sciences, University of Tsukuba: matsushita.bunkei.gn@u.tsukuba.ac.jp.

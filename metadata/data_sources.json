@@ -17,7 +17,7 @@
   },
   {
     "dataset": "Japan Ministry of the Environment",
-    "description": "Independent lake SPM measurements described in the manuscript; preserve SS censoring strings."
+    "description": "Independent lake SPM measurements, including the original censoring notation."
   },
   {
     "method": "Mai25",

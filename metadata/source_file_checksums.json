@@ -12,7 +12,7 @@
     "rows": 371592
   },
   {
-    "file": "data/heldout/S2_predictions.csv.gz",
+    "file": "data/independent_test/S2_predictions.csv.gz",
     "source_file": "02_data/heldout_test_S2_predictions.csv.gz",
     "source_sha256": "d666e7e8f84e8bb944c8ad9ef4bddf736fafca25e573ff9a10a572458556f126",
     "rows": 38427
@@ -24,7 +24,7 @@
     "rows": 133771
   },
   {
-    "file": "data/heldout/L7_predictions.csv.gz",
+    "file": "data/independent_test/L7_predictions.csv.gz",
     "source_file": "02_data/heldout_test_L7_predictions.csv.gz",
     "source_sha256": "fab1f6c0f896c5bd0697f0184e1b47e2494763e2d839ad513660c02c81e78a62",
     "rows": 15789
@@ -36,7 +36,7 @@
     "rows": 131579
   },
   {
-    "file": "data/heldout/L8_predictions.csv.gz",
+    "file": "data/independent_test/L8_predictions.csv.gz",
     "source_file": "02_data/heldout_test_L8_predictions.csv.gz",
     "source_sha256": "542edd0506f2e4ed553ea2b1d3a752e4e2e27eb47b8569c7ffe8fbc3b8770b32",
     "rows": 13531
@@ -48,7 +48,7 @@
     "rows": 55158
   },
   {
-    "file": "data/heldout/L9_predictions.csv.gz",
+    "file": "data/independent_test/L9_predictions.csv.gz",
     "source_file": "02_data/heldout_test_L9_predictions.csv.gz",
     "source_sha256": "3e78e804451d074157001a0e74a2ffabbeb13beaadf82424ef6856d88a577649",
     "rows": 8020

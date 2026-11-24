@@ -1,4 +1,4 @@
-"""Recalculate historical validation metrics without modifying package files."""
+"""Calculate validation metrics from stored predictions."""
 from pathlib import Path
 import csv,gzip,math,statistics,json
 root=Path(__file__).resolve().parents[1]
