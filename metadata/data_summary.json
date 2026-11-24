@@ -1,0 +1,109 @@
+[
+  {
+    "file": "data/dataset_i/field_olci_matchups.csv.gz",
+    "rows": 348,
+    "columns": 44,
+    "split_counts": {},
+    "distinct_lake_ids": null
+  },
+  {
+    "file": "data/dataset_ii/S2_training_matchups.csv.gz",
+    "rows": 371592,
+    "columns": 18,
+    "split_counts": {
+      "test": 38427,
+      "train": 266532,
+      "val": 66633
+    },
+    "distinct_lake_ids": 85
+  },
+  {
+    "file": "data/heldout/S2_predictions.csv.gz",
+    "rows": 38427,
+    "columns": 7,
+    "split_counts": {},
+    "distinct_lake_ids": 19
+  },
+  {
+    "file": "data/dataset_ii/L7_training_matchups.csv.gz",
+    "rows": 133771,
+    "columns": 13,
+    "split_counts": {
+      "test": 15789,
+      "train": 94386,
+      "val": 23596
+    },
+    "distinct_lake_ids": 74
+  },
+  {
+    "file": "data/heldout/L7_predictions.csv.gz",
+    "rows": 15789,
+    "columns": 7,
+    "split_counts": {},
+    "distinct_lake_ids": 12
+  },
+  {
+    "file": "data/dataset_ii/L8_training_matchups.csv.gz",
+    "rows": 131579,
+    "columns": 12,
+    "split_counts": {
+      "test": 13531,
+      "train": 94438,
+      "val": 23610
+    },
+    "distinct_lake_ids": 77
+  },
+  {
+    "file": "data/heldout/L8_predictions.csv.gz",
+    "rows": 13531,
+    "columns": 7,
+    "split_counts": {},
+    "distinct_lake_ids": 11
+  },
+  {
+    "file": "data/dataset_ii/L9_training_matchups.csv.gz",
+    "rows": 55158,
+    "columns": 14,
+    "split_counts": {
+      "train": 37710,
+      "val": 9428,
+      "test": 8020
+    },
+    "distinct_lake_ids": 69
+  },
+  {
+    "file": "data/heldout/L9_predictions.csv.gz",
+    "rows": 8020,
+    "columns": 7,
+    "split_counts": {},
+    "distinct_lake_ids": 6
+  },
+  {
+    "file": "data/dataset_iii/S2_field_validation.csv.gz",
+    "rows": 896,
+    "columns": 33,
+    "split_counts": {},
+    "distinct_lake_ids": null
+  },
+  {
+    "file": "data/dataset_iii/L7_field_validation.csv.gz",
+    "rows": 577,
+    "columns": 28,
+    "split_counts": {},
+    "distinct_lake_ids": null
+  },
+  {
+    "file": "data/dataset_iii/L8_field_validation.csv.gz",
+    "rows": 431,
+    "columns": 30,
+    "split_counts": {},
+    "distinct_lake_ids": null
+  },
+  {
+    "file": "data/dataset_iii/L9_field_validation.csv.gz",
+    "rows": 142,
+    "columns": 30,
+    "split_counts": {},
+    "distinct_lake_ids": null
+  }
+]

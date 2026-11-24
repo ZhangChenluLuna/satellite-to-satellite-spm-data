@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this dataset and the original source datasets when reusing these data."
+type: dataset
+title: "Satellite-to-satellite SPM research data for Japanese lakes"
+authors:
+  - family-names: Zhang
+    given-names: Chenlu
+  - family-names: Matsushita
+    given-names: Bunkei
+version: 1.0.0
+date-released: 2026-11-24
+abstract: "Satellite-to-satellite SPM matchups, independent field-validation observations, model predictions and sensor-specific model checkpoints for Japanese lakes."

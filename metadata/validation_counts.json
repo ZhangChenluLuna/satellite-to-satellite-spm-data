@@ -1,0 +1,22 @@
+{
+  "S2": {
+    "total_rows": 896,
+    "quantitative_ge1": 721,
+    "raw_SS_less_than": 174
+  },
+  "L7": {
+    "total_rows": 577,
+    "quantitative_ge1": 427,
+    "raw_SS_less_than": 147
+  },
+  "L8": {
+    "total_rows": 431,
+    "quantitative_ge1": 347,
+    "raw_SS_less_than": 80
+  },
+  "L9": {
+    "total_rows": 142,
+    "quantitative_ge1": 117,
+    "raw_SS_less_than": 25
+  }
+}

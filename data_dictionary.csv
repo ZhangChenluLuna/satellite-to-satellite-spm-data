@@ -1,0 +1,251 @@
+file,column_position_1based,column,unit,description
+data/dataset_i/field_olci_matchups.csv.gz,1,water_sys,not applicable,Waterbody or water-system name.
+data/dataset_i/field_olci_matchups.csv.gz,2,Counrty,not applicable,Country field; original source spelling retained.
+data/dataset_i/field_olci_matchups.csv.gz,3,datasource,not applicable,"In-situ data source: CNL, GLORIA, PL or TGL."
+data/dataset_i/field_olci_matchups.csv.gz,4,lat,degrees,Latitude recorded for the named sampling or pixel location.
+data/dataset_i/field_olci_matchups.csv.gz,5,lon,degrees,Longitude recorded for the named sampling or pixel location.
+data/dataset_i/field_olci_matchups.csv.gz,6,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
+data/dataset_i/field_olci_matchups.csv.gz,7,sensing_time_utc,source date/time,Sensing-time field recorded in UTC in the source table.
+data/dataset_i/field_olci_matchups.csv.gz,8,id,not applicable,Source matchup identifier.
+data/dataset_i/field_olci_matchups.csv.gz,9,insitu_id,not applicable,Source in-situ record identifier.
+data/dataset_i/field_olci_matchups.csv.gz,10,date_day,date,Observation date as recorded in the source table.
+data/dataset_i/field_olci_matchups.csv.gz,11,insitu_datetime,source date/time,In-situ sampling date and time as recorded.
+data/dataset_i/field_olci_matchups.csv.gz,12,insitu_lon,degrees,Longitude recorded for the named sampling or pixel location.
+data/dataset_i/field_olci_matchups.csv.gz,13,insitu_lat,degrees,Latitude recorded for the named sampling or pixel location.
+data/dataset_i/field_olci_matchups.csv.gz,14,insitu_SPM,g m^-3 (numerically equal to mg L^-1),In-situ SPM concentration.
+data/dataset_i/field_olci_matchups.csv.gz,15,c2rcc_salinity_psu,PSU,Salinity parameter used in C2RCC processing.
+data/dataset_i/field_olci_matchups.csv.gz,16,s3_product_name,not applicable,Sentinel-3 product identifier.
+data/dataset_i/field_olci_matchups.csv.gz,17,s3_product_datetime,source date/time,Sentinel-3 product acquisition date and time.
+data/dataset_i/field_olci_matchups.csv.gz,18,match_reason,not applicable,Source matchup status.
+data/dataset_i/field_olci_matchups.csv.gz,19,nearest_dist_m,m,Distance from the sampling location to the selected pixel centre.
+data/dataset_i/field_olci_matchups.csv.gz,20,center_row,pixel index,Selected pixel row index in the processed subset.
+data/dataset_i/field_olci_matchups.csv.gz,21,center_col,pixel index,Selected pixel column index in the processed subset.
+data/dataset_i/field_olci_matchups.csv.gz,22,center_lon,degrees,Longitude recorded for the named sampling or pixel location.
+data/dataset_i/field_olci_matchups.csv.gz,23,center_lat,degrees,Latitude recorded for the named sampling or pixel location.
+data/dataset_i/field_olci_matchups.csv.gz,24,window_n_valid,pixels,Number of valid pixels in the matchup window.
+data/dataset_i/field_olci_matchups.csv.gz,25,window_n_filtered_min,pixels,Minimum retained-pixel count recorded for the matchup window.
+data/dataset_i/field_olci_matchups.csv.gz,26,cv_median_3x3,dimensionless,Median coefficient of variation within the 3 by 3 pixel window.
+data/dataset_i/field_olci_matchups.csv.gz,27,lonlat_scale,dimensionless,Coordinate scaling factor recorded in the source table.
+data/dataset_i/field_olci_matchups.csv.gz,28,rrs_1,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_i/field_olci_matchups.csv.gz,29,rrs_2,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_i/field_olci_matchups.csv.gz,30,rrs_3,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_i/field_olci_matchups.csv.gz,31,rrs_4,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_i/field_olci_matchups.csv.gz,32,rrs_5,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_i/field_olci_matchups.csv.gz,33,rrs_6,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_i/field_olci_matchups.csv.gz,34,rrs_7,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_i/field_olci_matchups.csv.gz,35,rrs_8,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_i/field_olci_matchups.csv.gz,36,rrs_9,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_i/field_olci_matchups.csv.gz,37,rrs_10,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_i/field_olci_matchups.csv.gz,38,rrs_11,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_i/field_olci_matchups.csv.gz,39,rrs_12,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_i/field_olci_matchups.csv.gz,40,rrs_16,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_i/field_olci_matchups.csv.gz,41,rrs_17,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_i/field_olci_matchups.csv.gz,42,rrs_18,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_i/field_olci_matchups.csv.gz,43,rrs_21,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_i/field_olci_matchups.csv.gz,44,mai,g m^-3,Stored OLCI Mai25 SPM estimate from the original implementation.
+data/dataset_ii/S2_training_matchups.csv.gz,1,source_row_0based,row index,Zero-based original data-row index; corresponding Excel row is index plus 2.
+data/dataset_ii/S2_training_matchups.csv.gz,2,split,not applicable,"Fixed train, val or test membership."
+data/dataset_ii/S2_training_matchups.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
+data/dataset_ii/S2_training_matchups.csv.gz,4,date_day,date,Observation date as recorded in the source table.
+data/dataset_ii/S2_training_matchups.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
+data/dataset_ii/S2_training_matchups.csv.gz,6,cv_median,dimensionless,Median coefficient of variation used in homogeneity screening.
+data/dataset_ii/S2_training_matchups.csv.gz,7,POC/SPM,mass ratio,Particulate organic carbon to suspended particulate matter ratio.
+data/dataset_ii/S2_training_matchups.csv.gz,8,Mai_class,class code,Mai water-class code retained from the source table.
+data/dataset_ii/S2_training_matchups.csv.gz,9,mai_4class,class code,Four-category Mai water-class code retained from the source table.
+data/dataset_ii/S2_training_matchups.csv.gz,10,OWT_S3_label,class label,Optical water type assigned using Sentinel-3 reflectance.
+data/dataset_ii/S2_training_matchups.csv.gz,11,S2_Rrs_490nm_B2,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/S2_training_matchups.csv.gz,12,S2_Rrs_560nm_B3,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/S2_training_matchups.csv.gz,13,S2_Rrs_665nm_B4,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/S2_training_matchups.csv.gz,14,S2_Rrs_705nm_B5,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/S2_training_matchups.csv.gz,15,S2_Rrs_740nm_B6,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/S2_training_matchups.csv.gz,16,S2_Rrs_783nm_B7,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/S2_training_matchups.csv.gz,17,S2_Rrs_842nm_B8,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/S2_training_matchups.csv.gz,18,S2_Rrs_865nm_B8A,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/heldout/S2_predictions.csv.gz,1,sensor,not applicable,Satellite sensor identifier.
+data/heldout/S2_predictions.csv.gz,2,src_row,row index,Zero-based row index in the original sensor-specific matchup table.
+data/heldout/S2_predictions.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
+data/heldout/S2_predictions.csv.gz,4,date_day,date,Observation date as recorded in the source table.
+data/heldout/S2_predictions.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
+data/heldout/S2_predictions.csv.gz,6,plot_label_spm,g m^-3,Stored OLCI-derived reference SPM used in the held-out plot.
+data/heldout/S2_predictions.csv.gz,7,plot_pred_spm,g m^-3,Stored model-predicted SPM used in the held-out plot.
+data/dataset_ii/L7_training_matchups.csv.gz,1,source_row_0based,row index,Zero-based original data-row index; corresponding Excel row is index plus 2.
+data/dataset_ii/L7_training_matchups.csv.gz,2,split,not applicable,"Fixed train, val or test membership."
+data/dataset_ii/L7_training_matchups.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
+data/dataset_ii/L7_training_matchups.csv.gz,4,date_day,date,Observation date as recorded in the source table.
+data/dataset_ii/L7_training_matchups.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
+data/dataset_ii/L7_training_matchups.csv.gz,6,cv_median,dimensionless,Median coefficient of variation used in homogeneity screening.
+data/dataset_ii/L7_training_matchups.csv.gz,7,OWT_S3_label,class label,Optical water type assigned using Sentinel-3 reflectance.
+data/dataset_ii/L7_training_matchups.csv.gz,8,L7_Rrs_485nm_SR_B1,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/L7_training_matchups.csv.gz,9,L7_Rrs_560nm_SR_B2,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/L7_training_matchups.csv.gz,10,L7_Rrs_660nm_SR_B3,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/L7_training_matchups.csv.gz,11,L7_Rrs_835nm_SR_B4,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/L7_training_matchups.csv.gz,12,lon,degrees,Longitude recorded for the named sampling or pixel location.
+data/dataset_ii/L7_training_matchups.csv.gz,13,lat,degrees,Latitude recorded for the named sampling or pixel location.
+data/heldout/L7_predictions.csv.gz,1,sensor,not applicable,Satellite sensor identifier.
+data/heldout/L7_predictions.csv.gz,2,src_row,row index,Zero-based row index in the original sensor-specific matchup table.
+data/heldout/L7_predictions.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
+data/heldout/L7_predictions.csv.gz,4,date_day,date,Observation date as recorded in the source table.
+data/heldout/L7_predictions.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
+data/heldout/L7_predictions.csv.gz,6,plot_label_spm,g m^-3,Stored OLCI-derived reference SPM used in the held-out plot.
+data/heldout/L7_predictions.csv.gz,7,plot_pred_spm,g m^-3,Stored model-predicted SPM used in the held-out plot.
+data/dataset_ii/L8_training_matchups.csv.gz,1,source_row_0based,row index,Zero-based original data-row index; corresponding Excel row is index plus 2.
+data/dataset_ii/L8_training_matchups.csv.gz,2,split,not applicable,"Fixed train, val or test membership."
+data/dataset_ii/L8_training_matchups.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
+data/dataset_ii/L8_training_matchups.csv.gz,4,date_day,date,Observation date as recorded in the source table.
+data/dataset_ii/L8_training_matchups.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
+data/dataset_ii/L8_training_matchups.csv.gz,6,cv_median,dimensionless,Median coefficient of variation used in homogeneity screening.
+data/dataset_ii/L8_training_matchups.csv.gz,7,OWT_S3_label,class label,Optical water type assigned using Sentinel-3 reflectance.
+data/dataset_ii/L8_training_matchups.csv.gz,8,L8_Rrs_443nm_SR_B1,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/L8_training_matchups.csv.gz,9,L8_Rrs_482nm_SR_B2,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/L8_training_matchups.csv.gz,10,L8_Rrs_562nm_SR_B3,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/L8_training_matchups.csv.gz,11,L8_Rrs_655nm_SR_B4,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/L8_training_matchups.csv.gz,12,L8_Rrs_865nm_SR_B5,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/heldout/L8_predictions.csv.gz,1,sensor,not applicable,Satellite sensor identifier.
+data/heldout/L8_predictions.csv.gz,2,src_row,row index,Zero-based row index in the original sensor-specific matchup table.
+data/heldout/L8_predictions.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
+data/heldout/L8_predictions.csv.gz,4,date_day,date,Observation date as recorded in the source table.
+data/heldout/L8_predictions.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
+data/heldout/L8_predictions.csv.gz,6,plot_label_spm,g m^-3,Stored OLCI-derived reference SPM used in the held-out plot.
+data/heldout/L8_predictions.csv.gz,7,plot_pred_spm,g m^-3,Stored model-predicted SPM used in the held-out plot.
+data/dataset_ii/L9_training_matchups.csv.gz,1,source_row_0based,row index,Zero-based original data-row index; corresponding Excel row is index plus 2.
+data/dataset_ii/L9_training_matchups.csv.gz,2,split,not applicable,"Fixed train, val or test membership."
+data/dataset_ii/L9_training_matchups.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
+data/dataset_ii/L9_training_matchups.csv.gz,4,date_day,date,Observation date as recorded in the source table.
+data/dataset_ii/L9_training_matchups.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
+data/dataset_ii/L9_training_matchups.csv.gz,6,cv_median,dimensionless,Median coefficient of variation used in homogeneity screening.
+data/dataset_ii/L9_training_matchups.csv.gz,7,OWT_S3_label,class label,Optical water type assigned using Sentinel-3 reflectance.
+data/dataset_ii/L9_training_matchups.csv.gz,8,L9_Rrs_443nm_SR_B1,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/L9_training_matchups.csv.gz,9,L9_Rrs_482nm_SR_B2,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/L9_training_matchups.csv.gz,10,L9_Rrs_561nm_SR_B3,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/L9_training_matchups.csv.gz,11,L9_Rrs_655nm_SR_B4,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/L9_training_matchups.csv.gz,12,L9_Rrs_865nm_SR_B5,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_ii/L9_training_matchups.csv.gz,13,lon,degrees,Longitude recorded for the named sampling or pixel location.
+data/dataset_ii/L9_training_matchups.csv.gz,14,lat,degrees,Latitude recorded for the named sampling or pixel location.
+data/heldout/L9_predictions.csv.gz,1,sensor,not applicable,Satellite sensor identifier.
+data/heldout/L9_predictions.csv.gz,2,src_row,row index,Zero-based row index in the original sensor-specific matchup table.
+data/heldout/L9_predictions.csv.gz,3,lake_name,not applicable,Lake identifier in the original matchup table.
+data/heldout/L9_predictions.csv.gz,4,date_day,date,Observation date as recorded in the source table.
+data/heldout/L9_predictions.csv.gz,5,SPM,g m^-3,Measured SPM in Dataset I; OLCI-derived teacher SPM in Dataset II and held-out records.
+data/heldout/L9_predictions.csv.gz,6,plot_label_spm,g m^-3,Stored OLCI-derived reference SPM used in the held-out plot.
+data/heldout/L9_predictions.csv.gz,7,plot_pred_spm,g m^-3,Stored model-predicted SPM used in the held-out plot.
+data/dataset_iii/S2_field_validation.csv.gz,1,RECORDID,not applicable,Record identifier in the Japanese environmental monitoring data.
+data/dataset_iii/S2_field_validation.csv.gz,2,time,source time,Sampling time recorded in the environmental monitoring data.
+data/dataset_iii/S2_field_validation.csv.gz,3,SS,source text,"Original suspended-solids field, including censoring notation."
+data/dataset_iii/S2_field_validation.csv.gz,4,SS2,g m^-3,Numeric suspended-solids measurement used in validation.
+data/dataset_iii/S2_field_validation.csv.gz,5,SS3,source-defined,SS3 field retained from the environmental monitoring record.
+data/dataset_iii/S2_field_validation.csv.gz,6,latitude,degrees,Latitude recorded for the named sampling or pixel location.
+data/dataset_iii/S2_field_validation.csv.gz,7,longitude,degrees,Longitude recorded for the named sampling or pixel location.
+data/dataset_iii/S2_field_validation.csv.gz,8,Date,date,Date field from the environmental monitoring record.
+data/dataset_iii/S2_field_validation.csv.gz,9,locationname_from_csv,not applicable,Sampling-location name in the source monitoring data.
+data/dataset_iii/S2_field_validation.csv.gz,10,lat,degrees,Latitude recorded for the named sampling or pixel location.
+data/dataset_iii/S2_field_validation.csv.gz,11,lon,degrees,Longitude recorded for the named sampling or pixel location.
+data/dataset_iii/S2_field_validation.csv.gz,12,date,date,Satellite matchup date recorded in the source table.
+data/dataset_iii/S2_field_validation.csv.gz,13,443,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/S2_field_validation.csv.gz,14,490,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/S2_field_validation.csv.gz,15,560,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/S2_field_validation.csv.gz,16,665,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/S2_field_validation.csv.gz,17,705,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/S2_field_validation.csv.gz,18,740,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/S2_field_validation.csv.gz,19,783,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/S2_field_validation.csv.gz,20,842,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/S2_field_validation.csv.gz,21,865,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/S2_field_validation.csv.gz,22,S2_Rrs_2190nm_B12,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/S2_field_validation.csv.gz,23,s2_image_id,not applicable,Satellite image identifier.
+data/dataset_iii/S2_field_validation.csv.gz,24,s2_time_start,source timestamp,Satellite acquisition-time field as stored in the source table.
+data/dataset_iii/S2_field_validation.csv.gz,25,s2_joint_valid_n,pixels,Number of jointly valid pixels across the input bands.
+data/dataset_iii/S2_field_validation.csv.gz,26,s2_cv_median,dimensionless,Median band-wise coefficient of variation in the matchup window.
+data/dataset_iii/S2_field_validation.csv.gz,27,pred_spm,g m^-3,Stored prediction from the sensor-specific manuscript model.
+data/dataset_iii/S2_field_validation.csv.gz,28,nearest_lake,not applicable,Lake name associated with the validation record.
+data/dataset_iii/S2_field_validation.csv.gz,29,Nechad,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/S2_field_validation.csv.gz,30,Novoa,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/S2_field_validation.csv.gz,31,MDN_tss,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/S2_field_validation.csv.gz,32,SOLID,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/S2_field_validation.csv.gz,33,Jiang23,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/L7_field_validation.csv.gz,1,RECORDID,not applicable,Record identifier in the Japanese environmental monitoring data.
+data/dataset_iii/L7_field_validation.csv.gz,2,time,source time,Sampling time recorded in the environmental monitoring data.
+data/dataset_iii/L7_field_validation.csv.gz,3,SS,source text,"Original suspended-solids field, including censoring notation."
+data/dataset_iii/L7_field_validation.csv.gz,4,SS2,g m^-3,Numeric suspended-solids measurement used in validation.
+data/dataset_iii/L7_field_validation.csv.gz,5,SS3,source-defined,SS3 field retained from the environmental monitoring record.
+data/dataset_iii/L7_field_validation.csv.gz,6,latitude,degrees,Latitude recorded for the named sampling or pixel location.
+data/dataset_iii/L7_field_validation.csv.gz,7,longitude,degrees,Longitude recorded for the named sampling or pixel location.
+data/dataset_iii/L7_field_validation.csv.gz,8,Date,date,Date field from the environmental monitoring record.
+data/dataset_iii/L7_field_validation.csv.gz,9,locationname_from_csv,not applicable,Sampling-location name in the source monitoring data.
+data/dataset_iii/L7_field_validation.csv.gz,10,lat,degrees,Latitude recorded for the named sampling or pixel location.
+data/dataset_iii/L7_field_validation.csv.gz,11,lon,degrees,Longitude recorded for the named sampling or pixel location.
+data/dataset_iii/L7_field_validation.csv.gz,12,date,date,Satellite matchup date recorded in the source table.
+data/dataset_iii/L7_field_validation.csv.gz,13,L7_Rrs_483nm_SR_B1,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L7_field_validation.csv.gz,14,L7_Rrs_565nm_SR_B2,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L7_field_validation.csv.gz,15,L7_Rrs_660nm_SR_B3,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L7_field_validation.csv.gz,16,L7_Rrs_835nm_SR_B4,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L7_field_validation.csv.gz,17,L7_Rrs_1650nm_SR_B5,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L7_field_validation.csv.gz,18,L7_Rrs_2220nm_SR_B7,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L7_field_validation.csv.gz,19,l7_image_id,not applicable,Satellite image identifier.
+data/dataset_iii/L7_field_validation.csv.gz,20,l7_time_start,source timestamp,Satellite acquisition-time field as stored in the source table.
+data/dataset_iii/L7_field_validation.csv.gz,21,l7_joint_valid_n,pixels,Number of jointly valid pixels across the input bands.
+data/dataset_iii/L7_field_validation.csv.gz,22,l7_cv_median,dimensionless,Median band-wise coefficient of variation in the matchup window.
+data/dataset_iii/L7_field_validation.csv.gz,23,Novoa,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/L7_field_validation.csv.gz,24,pred_spm,g m^-3,Stored prediction from the sensor-specific manuscript model.
+data/dataset_iii/L7_field_validation.csv.gz,25,nearest_lake,not applicable,Lake name associated with the validation record.
+data/dataset_iii/L7_field_validation.csv.gz,26,Nechad,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/L7_field_validation.csv.gz,27,sun,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/L7_field_validation.csv.gz,28,SPM_teng,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/L8_field_validation.csv.gz,1,RECORDID,not applicable,Record identifier in the Japanese environmental monitoring data.
+data/dataset_iii/L8_field_validation.csv.gz,2,time,source time,Sampling time recorded in the environmental monitoring data.
+data/dataset_iii/L8_field_validation.csv.gz,3,SS,source text,"Original suspended-solids field, including censoring notation."
+data/dataset_iii/L8_field_validation.csv.gz,4,SS2,g m^-3,Numeric suspended-solids measurement used in validation.
+data/dataset_iii/L8_field_validation.csv.gz,5,SS3,source-defined,SS3 field retained from the environmental monitoring record.
+data/dataset_iii/L8_field_validation.csv.gz,6,latitude,degrees,Latitude recorded for the named sampling or pixel location.
+data/dataset_iii/L8_field_validation.csv.gz,7,longitude,degrees,Longitude recorded for the named sampling or pixel location.
+data/dataset_iii/L8_field_validation.csv.gz,8,Date,date,Date field from the environmental monitoring record.
+data/dataset_iii/L8_field_validation.csv.gz,9,locationname_from_csv,not applicable,Sampling-location name in the source monitoring data.
+data/dataset_iii/L8_field_validation.csv.gz,10,lat,degrees,Latitude recorded for the named sampling or pixel location.
+data/dataset_iii/L8_field_validation.csv.gz,11,lon,degrees,Longitude recorded for the named sampling or pixel location.
+data/dataset_iii/L8_field_validation.csv.gz,12,date,date,Satellite matchup date recorded in the source table.
+data/dataset_iii/L8_field_validation.csv.gz,13,L8_Rrs_443nm_SR_B1,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L8_field_validation.csv.gz,14,L8_Rrs_482nm_SR_B2,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L8_field_validation.csv.gz,15,L8_Rrs_561nm_SR_B3,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L8_field_validation.csv.gz,16,L8_Rrs_655nm_SR_B4,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L8_field_validation.csv.gz,17,L8_Rrs_865nm_SR_B5,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L8_field_validation.csv.gz,18,L8_Rrs_1610nm_SR_B6,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L8_field_validation.csv.gz,19,L8_Rrs_2200nm_SR_B7,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L8_field_validation.csv.gz,20,l8_image_id,not applicable,Satellite image identifier.
+data/dataset_iii/L8_field_validation.csv.gz,21,l8_time_start,source timestamp,Satellite acquisition-time field as stored in the source table.
+data/dataset_iii/L8_field_validation.csv.gz,22,l8_joint_valid_n,pixels,Number of jointly valid pixels across the input bands.
+data/dataset_iii/L8_field_validation.csv.gz,23,l8_cv_median,dimensionless,Median band-wise coefficient of variation in the matchup window.
+data/dataset_iii/L8_field_validation.csv.gz,24,pred_spm,g m^-3,Stored prediction from the sensor-specific manuscript model.
+data/dataset_iii/L8_field_validation.csv.gz,25,Novoa,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/L8_field_validation.csv.gz,26,Nechad,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/L8_field_validation.csv.gz,27,MDN_tss,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/L8_field_validation.csv.gz,28,SOLID,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/L8_field_validation.csv.gz,29,SPM_teng,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/L8_field_validation.csv.gz,30,nearest_lake,not applicable,Lake name associated with the validation record.
+data/dataset_iii/L9_field_validation.csv.gz,1,RECORDID,not applicable,Record identifier in the Japanese environmental monitoring data.
+data/dataset_iii/L9_field_validation.csv.gz,2,time,source time,Sampling time recorded in the environmental monitoring data.
+data/dataset_iii/L9_field_validation.csv.gz,3,SS,source text,"Original suspended-solids field, including censoring notation."
+data/dataset_iii/L9_field_validation.csv.gz,4,SS2,g m^-3,Numeric suspended-solids measurement used in validation.
+data/dataset_iii/L9_field_validation.csv.gz,5,SS3,source-defined,SS3 field retained from the environmental monitoring record.
+data/dataset_iii/L9_field_validation.csv.gz,6,latitude,degrees,Latitude recorded for the named sampling or pixel location.
+data/dataset_iii/L9_field_validation.csv.gz,7,longitude,degrees,Longitude recorded for the named sampling or pixel location.
+data/dataset_iii/L9_field_validation.csv.gz,8,Date,date,Date field from the environmental monitoring record.
+data/dataset_iii/L9_field_validation.csv.gz,9,locationname_from_csv,not applicable,Sampling-location name in the source monitoring data.
+data/dataset_iii/L9_field_validation.csv.gz,10,lat,degrees,Latitude recorded for the named sampling or pixel location.
+data/dataset_iii/L9_field_validation.csv.gz,11,lon,degrees,Longitude recorded for the named sampling or pixel location.
+data/dataset_iii/L9_field_validation.csv.gz,12,date,date,Satellite matchup date recorded in the source table.
+data/dataset_iii/L9_field_validation.csv.gz,13,L9_Rrs_443nm_SR_B1,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L9_field_validation.csv.gz,14,L9_Rrs_482nm_SR_B2,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L9_field_validation.csv.gz,15,L9_Rrs_561nm_SR_B3,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L9_field_validation.csv.gz,16,L9_Rrs_655nm_SR_B4,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L9_field_validation.csv.gz,17,L9_Rrs_865nm_SR_B5,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L9_field_validation.csv.gz,18,L9_Rrs_1610nm_SR_B6,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L9_field_validation.csv.gz,19,L9_Rrs_2200nm_SR_B7,sr^-1,Remote-sensing reflectance field; sensor and band follow the column name. Land-sensor values use the SR/pi convention described in the README.
+data/dataset_iii/L9_field_validation.csv.gz,20,l9_image_id,not applicable,Satellite image identifier.
+data/dataset_iii/L9_field_validation.csv.gz,21,l9_time_start,source timestamp,Satellite acquisition-time field as stored in the source table.
+data/dataset_iii/L9_field_validation.csv.gz,22,l9_joint_valid_n,pixels,Number of jointly valid pixels across the input bands.
+data/dataset_iii/L9_field_validation.csv.gz,23,l9_cv_median,dimensionless,Median band-wise coefficient of variation in the matchup window.
+data/dataset_iii/L9_field_validation.csv.gz,24,pred_spm,g m^-3,Stored prediction from the sensor-specific manuscript model.
+data/dataset_iii/L9_field_validation.csv.gz,25,Novoa,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/L9_field_validation.csv.gz,26,Nechad,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/L9_field_validation.csv.gz,27,MDN_tss,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/L9_field_validation.csv.gz,28,SOLID,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/L9_field_validation.csv.gz,29,SPM_teng,g m^-3,Stored benchmark SPM prediction; algorithm identifier is retained from the source table.
+data/dataset_iii/L9_field_validation.csv.gz,30,nearest_lake,not applicable,Lake name associated with the validation record.

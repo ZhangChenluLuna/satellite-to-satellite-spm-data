@@ -1,0 +1,104 @@
+[
+  {
+    "file": "data/dataset_i/field_olci_matchups.csv.gz",
+    "source_file": "02_data/DatasetI_348_field_OLCI.csv.gz",
+    "source_sha256": "1797363e29f38cc1e245ddfff8b6ac95eda4e7fc93c761aa7ff1929d82fe1c68",
+    "rows": 348
+  },
+  {
+    "file": "data/dataset_ii/S2_training_matchups.csv.gz",
+    "source_file": "02_data/DatasetII_S2_retained_with_split.csv.gz",
+    "source_sha256": "367cecd4840565eb8e8be8b67df01c656f198e42181f99b8644c45ab65acbe2f",
+    "rows": 371592
+  },
+  {
+    "file": "data/heldout/S2_predictions.csv.gz",
+    "source_file": "02_data/heldout_test_S2_predictions.csv.gz",
+    "source_sha256": "d666e7e8f84e8bb944c8ad9ef4bddf736fafca25e573ff9a10a572458556f126",
+    "rows": 38427
+  },
+  {
+    "file": "data/dataset_ii/L7_training_matchups.csv.gz",
+    "source_file": "02_data/DatasetII_L7_retained_with_split.csv.gz",
+    "source_sha256": "15ef1b630e77999d6b2680bd139335dcf70e4d591a0f40ba448f781543fb665c",
+    "rows": 133771
+  },
+  {
+    "file": "data/heldout/L7_predictions.csv.gz",
+    "source_file": "02_data/heldout_test_L7_predictions.csv.gz",
+    "source_sha256": "fab1f6c0f896c5bd0697f0184e1b47e2494763e2d839ad513660c02c81e78a62",
+    "rows": 15789
+  },
+  {
+    "file": "data/dataset_ii/L8_training_matchups.csv.gz",
+    "source_file": "02_data/DatasetII_L8_retained_with_split.csv.gz",
+    "source_sha256": "26f02e135e8d7610d3a77f3d4fd9a82b67c67335075684467e8f2b31704bbb1c",
+    "rows": 131579
+  },
+  {
+    "file": "data/heldout/L8_predictions.csv.gz",
+    "source_file": "02_data/heldout_test_L8_predictions.csv.gz",
+    "source_sha256": "542edd0506f2e4ed553ea2b1d3a752e4e2e27eb47b8569c7ffe8fbc3b8770b32",
+    "rows": 13531
+  },
+  {
+    "file": "data/dataset_ii/L9_training_matchups.csv.gz",
+    "source_file": "02_data/DatasetII_L9_retained_with_split.csv.gz",
+    "source_sha256": "b636e4ce0ab916d2eef6733d80eeedb72b90e85946312905f9fc17115ae348a9",
+    "rows": 55158
+  },
+  {
+    "file": "data/heldout/L9_predictions.csv.gz",
+    "source_file": "02_data/heldout_test_L9_predictions.csv.gz",
+    "source_sha256": "3e78e804451d074157001a0e74a2ffabbeb13beaadf82424ef6856d88a577649",
+    "rows": 8020
+  },
+  {
+    "file": "data/dataset_iii/S2_field_validation.csv.gz",
+    "source_file": "02_data/DatasetIII_S2_field_validation.csv.gz",
+    "source_sha256": "ccb623e09ff3641985e2dfefdff5b0863df89a618e374b41962a246be6871385",
+    "rows": 896
+  },
+  {
+    "file": "data/dataset_iii/L7_field_validation.csv.gz",
+    "source_file": "02_data/DatasetIII_L7_field_validation.csv.gz",
+    "source_sha256": "dd700b6f05025f3916dd95a7e9717198dae83c05f91f0e68d2aea87eef85a7f4",
+    "rows": 577
+  },
+  {
+    "file": "data/dataset_iii/L8_field_validation.csv.gz",
+    "source_file": "02_data/DatasetIII_L8_field_validation.csv.gz",
+    "source_sha256": "0974faf7af8ef354a5c23ea788e045ab2a6fdb3dab091d0394b8723375d1aed7",
+    "rows": 431
+  },
+  {
+    "file": "data/dataset_iii/L9_field_validation.csv.gz",
+    "source_file": "02_data/DatasetIII_L9_field_validation.csv.gz",
+    "source_sha256": "b751a5b44a7e6537cfcd00fc6519afe2c1b57565c1d9488beeec0f88e2205583",
+    "rows": 142
+  },
+  {
+    "file": "models/mdn_japan_S2.pt",
+    "source_file": "03_models/historical_baseline/mdn_japan_S2.pt",
+    "source_sha256": "703461d88070e987f12471d77704da085f4911175e437c4913175969b5af81c6",
+    "rows": null
+  },
+  {
+    "file": "models/mdn_japan_L7.pt",
+    "source_file": "03_models/historical_baseline/mdn_japan_L7.pt",
+    "source_sha256": "b636caddef91a16204f72d0f2c5a3e3da413906ecf015b352a417a408871f78e",
+    "rows": null
+  },
+  {
+    "file": "models/mdn_japan_L8.pt",
+    "source_file": "03_models/historical_baseline/mdn_japan_L8.pt",
+    "source_sha256": "c8c7b5bc7947de485aa8af573f3f0b70ca1e00afe77fac2a7b821a37876ff722",
+    "rows": null
+  },
+  {
+    "file": "models/mdn_japan_L9.pt",
+    "source_file": "03_models/historical_baseline/mdn_japan_L9.pt",
+    "source_sha256": "d7356a03ede2936c772d3ed378185fdf2ed1d3a97580dccf452f4cc0b95654e4",
+    "rows": null
+  }
+]

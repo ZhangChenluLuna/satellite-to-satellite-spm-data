@@ -1,0 +1,26 @@
+[
+  {
+    "dataset": "China Lakes",
+    "doi": "10.1038/s41597-024-03704-3"
+  },
+  {
+    "dataset": "GLORIA",
+    "doi": "10.1038/s41597-023-01973-y"
+  },
+  {
+    "dataset": "Patos Lagoon",
+    "doi": "10.1002/gdj3.134"
+  },
+  {
+    "dataset": "Great Lakes SeaBASS PVST_PRINGLS",
+    "doi": "10.5067/SeaBASS/PVST_PRINGLS/DATA001"
+  },
+  {
+    "dataset": "Japan Ministry of the Environment",
+    "description": "Independent lake SPM measurements described in the manuscript; preserve SS censoring strings."
+  },
+  {
+    "method": "Mai25",
+    "doi": "10.1016/j.jag.2025.104909"
+  }
+]

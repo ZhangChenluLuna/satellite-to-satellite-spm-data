@@ -1,0 +1,54 @@
+{
+  "S2": {
+    "source_rows": 372021,
+    "retained_rows": 371592,
+    "split_counts": {
+      "test": 38427,
+      "train": 266532,
+      "val": 66633,
+      "dropped": 429
+    },
+    "lake_identifiers_casefolded": 85,
+    "expected_manuscript_retained": 371592,
+    "counts_match": true
+  },
+  "L7": {
+    "source_rows": 133931,
+    "retained_rows": 133771,
+    "split_counts": {
+      "test": 15789,
+      "train": 94386,
+      "val": 23596,
+      "dropped": 160
+    },
+    "lake_identifiers_casefolded": 74,
+    "expected_manuscript_retained": 133771,
+    "counts_match": true
+  },
+  "L8": {
+    "source_rows": 132038,
+    "retained_rows": 131579,
+    "split_counts": {
+      "test": 13531,
+      "train": 94438,
+      "val": 23610,
+      "dropped": 459
+    },
+    "lake_identifiers_casefolded": 77,
+    "expected_manuscript_retained": 131579,
+    "counts_match": true
+  },
+  "L9": {
+    "source_rows": 55294,
+    "retained_rows": 55158,
+    "split_counts": {
+      "train": 37710,
+      "val": 9428,
+      "dropped": 136,
+      "test": 8020
+    },
+    "lake_identifiers_casefolded": 69,
+    "expected_manuscript_retained": 55158,
+    "counts_match": true
+  }
+}
